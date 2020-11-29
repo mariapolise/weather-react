@@ -12,7 +12,7 @@ axios.get(apiUrl).then(getWeather);
 return (
   <Loader
          type="Puff"
-         color="#00BFFF"
+         color="orange"
          height={100}
          width={100}
          timeout={null}/>
